@@ -1,73 +1,74 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="icons/screenseeker-logo.png" width="120" alt="ScreenSeeker Icon"/>
+  <h1>ScreenSeeker</h1>
+  <p><strong>A sleek, minimal movie discovery app built with React, TypeScript, Vite, TailwindCSS, and Framer Motion.</strong></p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat&logo=framer&logoColor=white"/>
+</div>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎬 Overview
 
-## React Compiler
+**ScreenSeeker** is a modern movie and cinema discovery app that helps you instantly explore films, showtimes, and nearby theatres.  
+It aggregates data from multiple external APIs to provide real-time movie listings, trending films, detailed showtimes, and theatre locations — all inside a clean, minimal, animation-driven interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Designed around simplicity and fluid UX, ScreenSeeker makes navigating the cinematic world effortless.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎞 **Movie Discovery**
+  - Now Playing
+  - Trending films
+  - Upcoming releases
+  - High-quality posters & metadata
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 📍 **Nearby Cinemas**
+  - Location-based theatre search
+  - Distance sorting
+  - Maps integration (optional)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🕒 **Showtimes Viewer**
+  - Browse showtimes by film or by cinema
+  - Clean, digestible time layout
+  - Quick actions & external booking links
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 🔍 **Advanced Search**
+  - Search for films, genres, directors, and cinemas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ⭐ **Favourites**
+  - Save movies and theatres for faster access
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🎨 **Modern, Minimal UI**
+  - Built with TailwindCSS
+  - Smooth page transitions and animations using Framer Motion
+  - Responsive layout for desktop & mobile
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- React (with Vite)
+- TypeScript
+- TailwindCSS
+- Framer Motion
+
+**APIs**
+- TMDB API (movie data)
+- Geolocation API
+- Additional cinema/showtime APIs (optional)
+
+**Tools**
+- Git + GitHub
+- Postman (API testing)
+- Vercel (optional deployment)
+
+---
+
