@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="icons/screenseeker.png" width="120" alt="ScreenSeeker Icon"/>
+  <img src="public/assets/ScreenSeeker.png" width="120" alt="ScreenSeeker Logo">
   <h1>ScreenSeeker</h1>
   <p><strong>A sleek, minimal movie discovery app built with React, TypeScript, Vite, TailwindCSS, and Framer Motion.</strong></p>
 
