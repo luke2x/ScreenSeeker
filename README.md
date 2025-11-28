@@ -12,7 +12,7 @@
 
 ---
 
-## 🎬 Overview
+## Overview
 
 **ScreenSeeker** is a modern movie and cinema discovery app that helps you instantly explore films, showtimes, and nearby theatres.  
 It aggregates data from multiple external APIs to provide real-time movie listings, trending films, detailed showtimes, and theatre locations — all inside a clean, minimal, animation-driven interface.
@@ -21,7 +21,7 @@ Designed around simplicity and fluid UX, ScreenSeeker makes navigating the cinem
 
 ---
 
-## ✨ Features
+## Features
 
 - 🎞 **Movie Discovery**
   - Now Playing
